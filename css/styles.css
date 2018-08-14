@@ -1,11 +1,18 @@
 html {
     font-size: 10px;
+    background: url(http://bmcc.tv/wordpress/wp-content/uploads/2014/03/468227135_960.jpg) bottom center;
+    background-size: cover;
 }
 
 body,html {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
 }
 
 .keys {
@@ -30,7 +37,15 @@ body,html {
     text-shadow: 0 0 .5rem black;
 }
 
-kbd {
-    display: block;
-    font-size: 4rem;
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
 }
